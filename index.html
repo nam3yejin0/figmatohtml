@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Montserrat";
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="frame19-container">
+        <div class="frame19-frame19">
+          <div class="frame19-main">
+            <img
+              src="public/external/rectangle126-p8k-1500w.png"
+              alt="Rectangle126"
+              class="frame19-rectangle1"
+            />
+            <img
+              src="public/external/pexelsphotobyjakubnovacek438-qjs-1500w.png"
+              alt="PexelsPhotobyJakubNovacek438"
+              class="frame19-pexels-photoby-jakub-novacek"
+            />
+            <div id="home-section" class="frame19-main-menu">
+              <div class="frame19-frame5">
+                <div class="frame19-frame2">
+                  <a href="#home-section" class="frame19-text10"><span>Home</span></a>
+                  <a href="#about-section" class="frame19-text12"><span>About</span></a>
+                  <a href="#contact-section" class="frame19-text14"><span>Contact</span></a>
+              </div>
+              
+              </div>
+              <span class="frame19-text16"><span>NamYeJin</span></span>
+              <div class="frame19-frame3">
+                <img
+                  src="public/external/riinstagramfill228-b7f.svg"
+                  alt="riinstagramfill228"
+                  class="frame19-riinstagramfill"
+                />
+                <img
+                  src="public/external/mdispotify230-sgi7.svg"
+                  alt="mdispotify230"
+                  class="frame19-mdispotify"
+                />
+              </div>
+            </div>
+            <div class="frame19-main-text">
+              <div class="frame19-frame4">
+                <div class="frame19-text1">
+                  <span class="frame19-text18">
+                    <span>failure is not fatal</span>
+                  </span>
+                  <span class="frame19-text20">Success is not final</span>
+                </div>
+                <span class="frame19-text21">
+                  <span>
+                    A faint glow from the distant city lights painted the night
+                    sky with hues of orange and purple, casting eerie shadows
+                    across the silent streets
+                  </span>
+                </span>
+                <div class="frame19cta">
+                  <a href="#about-section" class="frame19-text23"><span>Start</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame19-about">
+            <div class="frame19-frame15">
+              <img
+                src="public/external/pexelsphotobysashamartynov5143-fuea-1500w.png"
+                alt="PexelsPhotobySashaMartynov5143"
+                class="frame19-pexels-photoby-sasha-martynov1"
+              />
+              <img
+                src="public/external/whatsappimage20240813at1006552319d3d6photoroom1565-l8eq-800w.png"
+                alt="WhatsAppImage20240813at1006552319d3d6Photoroom1565"
+                class="frame19-whats-app-image20240813at1006552319d3d6-photoroom1"
+              />
+              <div id="about-section" class="frame19-frame10">
+                <span class="frame19-text25"><span>Who am I?</span></span>
+                <span class="frame19-text27">
+                  <span>
+                    Nama saya Nam Ye Jin, seorang siswa kelas XI PPLG 5 di SMK
+                    Telkom Purwokerto. Di sekolah ini, saya ingin mengembangkan
+                    keterampilan dalam bidang pengembangan perangkat lunak
+                    sambil berpartisipasi dalam berbagai proyek yang menantang
+                    dan memperkaya pengetahuan saya.
+                  </span>
+                </span>
+              </div>
+              <div class="frame19-frame12">
+                <div class="frame19-frame7">
+                  <div class="frame19-hobby">
+                    <span class="frame19-text29"><span>Hobby</span></span>
+                    <div class="frame19-iconhobby">
+                      <img
+                        src="public/external/simpleiconsvalorant575-ven.svg"
+                        alt="simpleiconsvalorant575"
+                        class="frame19-simpleiconsvalorant"
+                      />
+                      <img
+                        src="public/external/logosspotifyicon571-ldx.svg"
+                        alt="logosspotifyicon571"
+                        class="frame19-logosspotifyicon"
+                      />
+                    </div>
+                    <span class="frame19-text31">
+                      <span>Mendengarkan musik dan bermain beberapa game</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="frame19-frame8">
+                  <div class="frame19i-like">
+                    <span class="frame19-text33"><span>I Like</span></span>
+                    <span class="frame19-text35">
+                      <span>Hal-hal bersih, tidur, dan makanan</span>
+                    </span>
+                    <img
+                      src="public/external/mdilike596-8lh9.svg"
+                      alt="mdilike596"
+                      class="frame19-mdilike"
+                    />
+                  </div>
+                </div>
+                <div class="frame19-frame11">
+                  <div class="frame19-frame9">
+                    <span class="frame19-text37">
+                      <span>I Don’t Like</span>
+                    </span>
+                    <span class="frame19-text39">
+                      <span>
+                        Asap rokok, sampah, dan orang yang susah di ajak bekerja
+                        sama
+                      </span>
+                    </span>
+                    <img
+                      src="public/external/mdithumbsdown5100-5ct.svg"
+                      alt="mdithumbsdown5100"
+                      class="frame19-mdithumbsdown"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame19-asal-sekolah">
+            <div class="frame19-frame16">
+              <img
+                src="public/external/pexelsphotobysashamartynov5145-hhhg-1500w.png"
+                alt="PexelsPhotobySashaMartynov5145"
+                class="frame19-pexels-photoby-sasha-martynov2"
+              />
+              <div class="frame19-frame14">
+                <span class="frame19-text41"><span>Asal Sekolah</span></span>
+                <div class="frame19-frame13">
+                  <div class="frame19-plate3">
+                    <span class="frame19-text43">
+                      <span>Sekolah Dasar</span>
+                    </span>
+                    <div class="frame19-group1">
+                      <img
+                        src="public/external/isometricviewofdeskwithpapersandribbon102-53xh-200h.png"
+                        alt="isometricviewofdeskwithpapersandribbon102"
+                        class="frame19-isometricviewofdeskwithpapersandribbon"
+                      />
+                    </div>
+                    <span class="frame19-text45">
+                      <span>
+                        Aku mulai bersekolah di SD Negeri 2 Purbalingga Lor di
+                        tahun 2014
+                      </span>
+                    </span>
+                  </div>
+                  <div class="frame19-plate2">
+                    <span class="frame19-text47">
+                      <span>Sekolah Menengah Pertama</span>
+                    </span>
+                    <span class="frame19-text49">
+                      <span>
+                        Pandemi Covid-19 terjadi ketika aku lulus dari SD dan
+                        naik ke SMP 1 Purbalingga pada tahun 2020
+                      </span>
+                    </span>
+                    <img
+                      src="public/external/isometricviewofenvelopesnotebooksandcupofcoffee104-c83-200h.png"
+                      alt="isometricviewofenvelopesnotebooksandcupofcoffee104"
+                      class="frame19-isometricviewofenvelopesnotebooksandcupofcoffee"
+                    />
+                  </div>
+                  <div class="frame19-plate1">
+                    <span class="frame19-text51">
+                      <span>
+                        Sekarang aku melanjutkan pendidikanku di SMK Telkom
+                        Purwokerto
+                      </span>
+                    </span>
+                    <img
+                      src="public/external/isometricviewoflaptopnotebooksperfumeandstickynote105-qu3-200h.png"
+                      alt="isometricviewoflaptopnotebooksperfumeandstickynote105"
+                      class="frame19-isometricviewoflaptopnotebooksperfumeandstickynote"
+                    />
+                    <span class="frame19-text53">
+                      <span>Sekolah Menengah Kejuruan</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame19-contact">
+            <img
+              src="public/external/pexelsphotobyfelixmittermeier1344-2mx6k-700h.png"
+              alt="PexelsPhotobyFelixMittermeier1344"
+              class="frame19-pexels-photoby-felix-mittermeier"
+            />
+            <div id="contact-section" class="frame19-frame18">
+              <span class="frame19-text55"><span>Contact</span></span>
+              <div class="frame19-frame17">
+                <div class="frame19-group2">
+                  <div class="frame19-skilliconsinstagram">
+                    <div class="frame19-group">
+                      <img
+                        src="public/external/vector1349-ykks.svg"
+                        alt="Vector1349"
+                        class="frame19-vector1"
+                      />
+                      <img
+                        src="public/external/vector1350-000r.svg"
+                        alt="Vector1350"
+                        class="frame19-vector2"
+                      />
+                      <img
+                        src="public/external/vector1351-hv2.svg"
+                        alt="Vector1351"
+                        class="frame19-vector3"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="frame19-group4">
+                  <div class="frame19-group3"></div>
+                  <img
+                    src="public/external/logoswhatsappicon1352-aipn.svg"
+                    alt="logoswhatsappicon1352"
+                    class="frame19-logoswhatsappicon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
